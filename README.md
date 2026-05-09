@@ -3,14 +3,14 @@ Linux system administration and security home lab using Linux Mint and VirtualBo
 
 Virtual Machine Configuration
 
-Host system: macOS
-Virtualization Platform: Oracle VirtualBox
-GuestOS: Linux Mint
-Base Memory/RAM: 6144MB (or approx. 6GB)
-Virtual CPU's: 4
-Boot order: Optical Drive, Hard Disk
-Pointing Device: USB Tablet
-Video Memory: 16MB
+- Host system: macOS
+- Virtualization Platform: Oracle VirtualBox
+- GuestOS: Linux Mint
+- Base Memory/RAM: 6144MB (or approx. 6GB)
+- Virtual CPU's: 4
+- Boot order: Optical Drive, Hard Disk
+- Pointing Device: USB Tablet
+- Video Memory: 16MB
 
 Host name:
 
