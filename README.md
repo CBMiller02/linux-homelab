@@ -150,9 +150,48 @@ And finally 'uptime'.
 
 ----------------------------------
 
+Finally, I'm going to create a bash script for my Linux environment.  I'll start by runing the command 'nano system_check.sh' to open the editor for system_check.sh.  Next, I will insert the following text to create the Bash environment:
+
+(Begin statement)
+
+#!/bin/bash
+
+echo "===== SYSTEM INFO ====="
+hostnamectl
+
+echo ""
+echo "===== MEMORY ====="
+free -h
+
+echo ""
+echo "===== DISK ====="
+df -h
+
+echo ""
+echo "===== CPU ====="
+lscpu | head
+
+echo ""
+echo "===== NETWORK CONNECTIONS ====="
+ss -tuln
+
+(End statement)
+
+![Screenshot 2026-05-11 at 1 59 58 PM](https://github.com/user-attachments/assets/b9bac16e-0a43-4f94-9a24-5d0f3de10bb1)
 
 
+Now I'll run the command of 'chmod +x system_check.sh to make the system executable.
+
+![Screenshot 2026-05-11 at 2 01 46 PM](https://github.com/user-attachments/assets/793b18a5-7f9f-4190-a420-0693c5b72580)
 
 
+Finally, I'll run the command of './system_check.sh' to show the output of the Bash script we had created.
 
+![Screenshot 2026-05-11 at 2 02 26 PM](https://github.com/user-attachments/assets/8c4b144c-5107-4549-8fef-006e5ed55b57)
+
+![Screenshot 2026-05-11 at 2 02 09 PM](https://github.com/user-attachments/assets/ed00ab7b-8308-4a25-bbc5-5b57838e64c0)
+
+As you can see, we'll get a breakdown of the System Info, Memory, Disk, CPU, and Network Connections in a readable, clean format from the Bash script we created.
+
+This concludes the breakdown of my Linux home environment.
 
