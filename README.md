@@ -106,6 +106,52 @@ We can see that the firewall is active and enabled, which was due to us installi
 ![Screenshot 2026-05-11 at 8 33 16 AM](https://github.com/user-attachments/assets/a067f2b3-9f70-47ba-b9ea-d81e33877d37)
 
 ---------------------------
+SSH
+
+Now we're going to check the status of our SSH.  After running the command of 'systemctl status ssh' I saw that my ssh was disabled.
+Because of that, we will run the command of 'sudo systemctl start ssh' to begin running the SSH. Then, run 'systemctl status ssh' to make sure it is up and running. We see that it is running now.
+
+![Screenshot 2026-05-11 at 8 40 10 AM](https://github.com/user-attachments/assets/c3a685a2-70da-4f85-8644-958008ebd832)
+
+
+Finally, we will enable the ssh.
+
+![Screenshot 2026-05-11 at 8 42 14 AM](https://github.com/user-attachments/assets/953a7aec-ae8b-4d5b-af0b-9fe2736cc45f)
+
+And finally run the command of 'systemctl status ssh' to make sure everthing is up and running.
+
+![Screenshot 2026-05-11 at 8 44 42 AM](https://github.com/user-attachments/assets/0ed283a4-9937-47ac-ac96-50b6f2bcccf6)
+
+-----------------------------
+System Information Commands.
+
+I'll be running through some basic system information commands.  I'll start with 'hostnamectl'.
+
+![Screenshot 2026-05-11 at 8 48 28 AM](https://github.com/user-attachments/assets/1871c8e3-abc1-4c24-b8ea-387a7ad5cbec)
+
+Next I'll do 'free -h'
+
+![Screenshot 2026-05-11 at 8 49 13 AM](https://github.com/user-attachments/assets/f42e126f-27ec-4906-b598-3f941417c344)
+
+
+Then 'df -h'.
+
+![Screenshot 2026-05-11 at 8 50 14 AM](https://github.com/user-attachments/assets/2404e2bd-868e-4c37-86a4-1e5c02612729)
+
+
+Then 'lscpu'.
+
+![Screenshot 2026-05-11 at 8 50 42 AM](https://github.com/user-attachments/assets/21eee1b1-b86b-45ca-92e5-10608f520c0c)
+
+
+And finally 'uptime'.
+
+![Screenshot 2026-05-11 at 8 51 04 AM](https://github.com/user-attachments/assets/1a3afe77-97cf-4fd9-959c-319b402a25ac)
+
+----------------------------------
+
+
+
 
 
 
