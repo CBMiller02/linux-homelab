@@ -65,4 +65,48 @@ Now below are the respective outputs from running htop, git --version, and curl
 
 That concludes basic formatting and setup for my Linux home lab.
 
+---------------------
+
+Next I will go through the basics of adding a user 'analyst1'.
+
+![Screenshot 2026-05-11 at 8 20 45 AM](https://github.com/user-attachments/assets/63c727f9-513e-45d4-8254-0a641a75389c)
+
+![Screenshot 2026-05-11 at 8 21 33 AM](https://github.com/user-attachments/assets/69867fef-70e4-4013-b34b-094cd43192b3)
+
+![Screenshot 2026-05-11 at 8 22 03 AM](https://github.com/user-attachments/assets/f249d5d2-3dc0-44df-b7e8-69bd0878d2d2)
+
+---------------------
+
+Now, for networking basics:
+
+First running the command 'ip a' so I can view my IP configuration:
+
+![Screenshot 2026-05-11 at 8 25 49 AM](https://github.com/user-attachments/assets/d73b9573-34d6-447a-a763-0810f6a5b3ed)
+
+
+Now for open connections and ports I run 'ss -tuln'.
+
+![Screenshot 2026-05-11 at 8 26 37 AM](https://github.com/user-attachments/assets/32719bd6-c0e0-4a48-9d63-9353a0e5d22f)
+
+
+Finally I will text the connectivity.  For this I'll just use a popular search engine website, Google.com. To run this command, I'll simply run the command 'ping google.com'.  To stop or quit the command, I'll simply use 'CTRL +C'.
+
+![Screenshot 2026-05-11 at 8 28 21 AM](https://github.com/user-attachments/assets/4aa03ca0-2530-4e57-9e6b-141ccfd5e770)
+
+----------------------------
+
+Firewall configuration
+First off, we will run the command of 'sudo ufw enable' to enable our firewall.
+
+![Screenshot 2026-05-11 at 8 32 54 AM](https://github.com/user-attachments/assets/a708c31a-55c1-479b-b8f7-be48213ab646)
+
+
+We can see that the firewall is active and enabled, which was due to us installing 'ufw' at the beginning of this Linux home lab setup. Now we're going to run out firewall with verbose to get a better representation of what's going on. To do this we'll run the command of 'sudo ufw status verbose'.
+
+![Screenshot 2026-05-11 at 8 33 16 AM](https://github.com/user-attachments/assets/a067f2b3-9f70-47ba-b9ea-d81e33877d37)
+
+---------------------------
+
+
+
 
